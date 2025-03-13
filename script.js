@@ -11,15 +11,13 @@ async function getData(city, continent) {
 
   const formattedCity = city.trim().replace(" ", "_");
   const formattedContinent = continent.trim();
-
-  const url = `https://timeapi.io/api/Time/current/zone?timeZone=${formattedContinent}/${formattedCity}`;
+  const url = `https://timeapi.io/api/time/current/zone?timeZone=${formattedContinent}%2F${formattedCity}`;
 
   try {
     const response = await fetch(url);
     if (!response.ok) {
       throw new Error(`Erreur API: ${response.status}`);
     }
-
     await response.json();
   } catch (error) {
     console.error("Erreur lors de la récupération des données:", error.message);
