@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123 123" width="123" height="123">
+	<title>moon</title>
+	<defs>
+		<image  width="123" height="124" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB8AQMAAABzDF2EAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAACYklEQVR4nJ2VQY7TQBBFuycjeRZIYckCYUtcA+FcZY7Akg12uElukiAOEiMWLIPEwiMlNr9+V3dXtxAj8CKLZ6fq/6rqau+qx8vP9sNYgn6/K8F6KsHmWoFmrkB7rkB/3JdZVlcCv4RcCWyuFWjm9c69+JXB9hLB3ULQnm/3BeiPETRPBMP49OBef89gdQBvvmkZvMgAeP9FPDwKgAyA/iQeDh1AM7ufL93goX7FmwikRpsrBHnoAvDLhK8X5PfQ5aaumfG1xuiPAMMoJWgPuwhW5xAk6MDLqaMfVYqXU7e5IpMFzBLcQjmAW6WsFlApKwYrkoBeLKB9Alj5I2DFCOBNQG7D8wDuRUdu5fMA5fhXgIJF8DBX4NWPCKR8/wdYAo+iyzjI8+5rBTg0Fnz6HIG0Ec/qayDNMsAvcmwIMElODoFYMGB7ET0EelhlxA2QriNqABJe+iFzmoD0FEEC4DEdRgluQHsWCwGwhs2c07IgYQUY4JfkRf1nt+pu2CcQzOQCKcg1VXcBSBuCdm1DAJSaG6VSLaCyAGRgVJkF2ogMghAD8p7inMa8FuiIZKADoKchR20+RqBR2wOPWBLvhscEGAQHPAGWZHuZeG7Tf4bRAOTB1yee/fDc3kKSBSE798ffgOcOKoEWJKaqwO2em64E0a46qgDWpEvugiFu3BIU2k87bm2jfOReN0LD5jdCK8CdbIVwjVshcjycFTJ1ekdlGXqL5ax6z+WsehPmrHpX5iR6m+Yket8mawrUHqco3NmXKFyBBpEQem2uKYQCKtE9Q0Al/Ee8aaFeJ1UBHOu0/wY+ZFnM72HQjgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use  href="#img1" x="0" y="-1"/>
+</svg>
