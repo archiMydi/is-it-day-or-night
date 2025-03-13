@@ -58,6 +58,10 @@ footer{
     font-size: 12px;
 }
 
+#weatherImg{
+    width: 30vh;
+}
+
 /* Input */
 select{
     padding: 6px 12px;

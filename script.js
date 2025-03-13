@@ -15,23 +15,28 @@ async function getData(city, continent) {
 
   try {
     const response = await fetch(url);
-    if (!response.ok) {
-      throw new Error(`Erreur API: ${response.status}`);
-    }
-    await response.json();
+
+    return await response.json();
   } catch (error) {
     console.error("Erreur lors de la récupération des données:", error.message);
-    document.body.classList.add("fog");
-    weatherImg.src = "./assets/fog.svg";
   }
 }
 
-cityBtn.addEventListener("change", async function () {
+async function getWeather() {
+  weatherImg.src = "./assets/loader.svg";
+
   let night = null;
   const result = await getData(btnCity.value, btnContinent.value);
 
   const currentTime = new Date(result?.dateTime);
   const currentHour = currentTime.getHours();
+
+  // TimeZone introuvable
+  if (result == "Invalid Timezone") {
+    document.body.classList.add("fog");
+    weatherImg.src = "./assets/fog.svg";
+    return;
+  }
 
   if (currentHour >= 18 || currentHour < 8) {
     night = true;
@@ -48,4 +53,8 @@ cityBtn.addEventListener("change", async function () {
     document.body.classList.remove("fog");
     weatherImg.src = "./assets/sun.svg";
   }
-});
+}
+
+btnCity.addEventListener("change", getWeather);
+btnContinent.addEventListener("change", getWeather);
+document.addEventListener("DOMContentLoaded", getWeather);
