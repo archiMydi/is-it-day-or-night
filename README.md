@@ -9,6 +9,10 @@ This project is a simple web page that allows users to input the name of a city.
 - Displays a moon with a dark theme if the city is recognized and it is nighttime.
 - Displays a foggy theme if the city is not recognized.
 
+## How ?
+
+Using [Time API](https://timeapi.io/swagger/index.html)
+
 ## Collaborators
 
 - [hugolgle](https://github.com/hugolgle)
